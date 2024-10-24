@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* permite hacer el desplazamiento de secciones mas suave */
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #335cffd8;
+}
+.nav-item a {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+    transition: all 0.7s ease-in;
+}
+.nav-item a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+/* hacemos espacio entre cada opcion del menu  */
+.navigation-wrap .nav-item {
+    padding: 10px 0;
+}
+.navbar-toggler{
+    /* le quitamos el borde que trae por defecto al icono hamburguesa  */
+    border: none;
+}
+/* le decimos que no tenga sombra el icono del menu hamburguesa  */
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* estilo al icono hamburguesa  */
+.navbar-toggler i {
+    color: #000;
+    font-size: 27px;
+}
+
+/* centra el menu cuando esta en dispositivos mas pequeños  */
+.navbar-nav {
+    text-align: center;
+}
+
+/* Estilos al dropdown */
+
+/* le damos estilos al menu tipo dropdown  */
+
+.dropdown-menu {
+    background-color: #fff;
+    border: none;
+}
+
+
+/*iniciamos*/
+.tamaimg1{
+    height: 120px;
+    width: 150px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /*efecto parallex*/
+    background-attachment: fixed;
+    background-size: cover;
+    /*efecto parallex arriba*/
+    height: calc(85vh);
+    background-position: center;
+    background-image: url('../imagenes/banner.jpg');
+    background-color: #ffffff;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(54, 53, 53, 0.7);
+}
+
+.clip-path { 
+    clip-path: circle(42% at center);
+    height: 150px;
+    width: 150px;
+    background-color: #ffcc00;
+}
+
+.banner1{
+    background-image: url("../imagenes/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+    clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 50px;
+    height: 30px;
+}
+.personajetama{
+    height: 250px;
+    width: 350px;
+}
+.personaje2tama{
+    height: 350px;
+    width: 400px;
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+
+}
+
+.contact-item {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+.fondoemail { 
+    background-color: #ff000048; 
+ }
+.fondophone { background-color: #28a7464b; 
+ }
+.fondofacebook { background-color: #073dff41; 
+}
+.facebook{
+    font-size: 70px;
+    color: #0022ff; 
+    box-shadow: 0 0.5rem 1rem rgba(26, 11, 226, 0.726); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+
+}
+.phone{
+    font-size: 70px;
+    color: #00ff15; 
+    box-shadow: 0 0.5rem 1rem rgb(0, 255, 38); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+
+}
+.email{
+    font-size: 70px;
+    color: #ff0000; 
+    box-shadow: 0 0.5rem 1rem rgb(255, 0, 0); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+
+}
+.btn-shadow {
+    box-shadow: 0 0.5rem 1rem rgba(30, 255, 0, 0.804); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+}
+
+.cardbackground {
+    background-color: #e4e9ffc6 !important;
+}
+.tamatxt{
+    font-size: 30px;
+}
+.titulotxt{
+    font-size: 25px;
+}
+.bannertxt{
+    font-size: 40px;
+}
+.titu2{
+    font-size: 20px;
+}
+.txtinstituto{
+    font-size: 35px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.959); /* Cambia el color de la sombra ajustando los valores RGBA según tus preferencias */
+
+}
+.tamañologos{
+
+    height: 200px;
+    width: 200px;
+}
+
+
+footer {
+    background-color: #335cffd8;
+}
+
+footer p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+}
