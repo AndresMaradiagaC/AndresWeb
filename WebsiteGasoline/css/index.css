@@ -1,0 +1,275 @@
+/* Estilos para la sección del banner */
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: calc(90vh);
+    background-position: center;
+    background-image: url('../imagenes/bannergasolinera.jpg');
+    background-color: #ffffff;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(78, 76, 76, 0.216);
+}
+
+/* Estilos para las secciones de servicios y contacto */
+.bannerubicacion,
+.bannertestimonial,
+.bannernosotros,
+.bannercontacto,
+.bannerpromociones,
+.bannerblog
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.745);
+    height: 300px;
+}
+.color{
+    background-color: black;
+}
+/* Estilos específicos para cada sección */
+.bannerservicios {
+    background-image: url('../imagenes/bannerservicios.jpg');
+}
+.bannerubicacion{
+    background-image: url('../imagenes/carrusel2.jpg');
+
+}
+.bannertestimonial{
+    background-image: url('../imagenes/carrusel3.jpg');
+
+}
+.bannernosotros{
+    background-image: url('../imagenes/carrusel1.jpg');
+
+}
+
+.bannercontacto {
+    background-image: url('../imagenes/carrusel4.jpg');
+}
+.bannerpromociones {
+    background-image: url('../imagenes/carrusel3.jpg');
+}
+.bannerblog {
+    background-image: url('../imagenes/carrusel1.jpg');
+}
+
+
+
+/* Otros estilos generales */
+.logos2 {
+    width: 350px;
+    height: 200px;
+    border-radius: 70px;
+}
+
+.imgtama {
+    width: 500px;
+    height: 380px;
+    border-radius: 40px;
+}
+
+.tamaletra {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    color: #fff;
+    padding-top: 10px;
+    background-color:#3BA934;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+
+}
+
+
+body {
+    color: #000;
+    font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat a todo el cuerpo del documento */
+    overflow-x: hidden;
+}
+
+
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 50px;
+    height: 30px;
+}
+
+.favi {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.navbar-transparent {
+    background-color:#3BA934;
+}
+
+.optmenu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #fff;
+    background-color: #A8D9A0;
+    transition: all 1s solid;
+}
+
+.optmenu:active {
+    background-color: rgb(44, 108, 181);
+}
+
+.navbar-toggler {
+    background-color: #d6dbe3;
+    border: 3px solid #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #d6dbe3;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Estilos para los controles del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.custom-carousel-image {
+    max-height: 500px;
+    margin: auto;
+}
+
+.tamaservi {
+    font-size: 40px;
+}
+
+
+
+.tamaimg {
+    width: 180px;
+    height: 110px;
+}
+
+.nameexpe{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.tamateste{
+    font-size: 22px;
+
+}
+
+.precio{
+    color: red;
+    font-weight: bold;
+
+}
+
+.tamaimg{
+    height: 250px;
+    width: 200px;
+}
+.relojtama{
+    height: 150px;
+    width: 200px;
+}
+.valortama{
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+}
+
+.titulovalortxt{
+    font-size: 25px;
+}
+.fondocar{ 
+background-color:#A8D9A0;
+}
+
+
+.img-container img {
+    width: 120%;
+    object-fit: cover;
+    height: 120px;
+    border-radius: 80px;
+}
+.blogimg{
+    height: 250px;
+    width: 500px;
+}
+
+.tamañorostro{
+    height: 650px;
+    width: 1920px;
+}
+.tamañorostro2{
+    height: 400px;
+    width: 400px;
+}
+
+.btn-custom{
+    background-color: #ffa600d5 ;
+    border-color: black; 
+    color: black; 
+}
+.ilustacion2tama{
+    height: 350px;
+    width: 400px;
+}
+.cardcolor{
+    background-color: #A8D9A0;
+
+}
+.tamatxt{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+
+} 
