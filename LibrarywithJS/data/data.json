@@ -1,0 +1,127 @@
+{
+  "data": {
+    "books": [
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "Harry Potter and the Sorcerer's Stone Kindle Edition",
+        "subtitle": "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 22
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "Harry Potter and the Chamber of Secrets Kindle Edition",
+        "subtitle": "Harry Potter's summer has included the worst birthday ever, doomy warnings from a house-elf called Dobby, and rescue from the Dursleys by his friend Ron Weasley in a magical flying car! Back at Hogwarts School of Witchcraft and Wizardry for his second year, Harry hears strange whispers echo through empty corridors - and then the attacks start. Students are found as though turned to stone... Dobby's sinister predictions seem to be coming true.",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 54
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "subtitle": "When the Knight Bus crashes through the darkness and screeches to a halt in front of him, it's the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run - and they say he is coming after Harry. In his first ever Divination class, Professor Trelawney sees an omen of death in Harry's tea leaves... But perhaps most terrifying of all are the Dementors patrolling the school grounds, with their soul-sucking kiss",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 3
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "Harry Potter and the Goblet of Fire",
+        "subtitle": "The Triwizard Tournament is to be held at Hogwarts. Only wizards who are over seventeen are allowed to enter - but that doesn't stop Harry dreaming that he will win the competition. Then at Hallowe'en, when the Goblet of Fire makes its selection, Harry is amazed to find his name is one of those that the magical cup picks out. He will face death-defying tasks, dragons and Dark wizards, but with the help of his best friends, Ron and Hermione, he might just make it through - alive!",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 15
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": false,
+        "title": "Harry Potter and the Order of the Phoenix ",
+        "subtitle": "Dark times have come to Hogwarts. After the Dementors' attack on his cousin Dudley, Harry Potter knows that Voldemort will stop at nothing to find him. There are many who deny the Dark Lord's return, but Harry is not alone: a secret order gathers at Grimmauld Place to fight against the Dark forces. Harry must allow Professor Snape to teach him how to protect himself from Voldemort's savage assaults on his mind. But they are growing stronger by the day and Harry is running out of time.",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 10
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": false,
+        "title": "Harry Potter and the Half-Blood Prince",
+        "subtitle": "When Dumbledore arrives at Privet Drive one summer night to collect Harry Potter, his wand hand is blackened and shrivelled, but he does not reveal why. Secrets and suspicion are spreading through the wizarding world, and Hogwarts itself is not safe. Harry is convinced that Malfoy bears the Dark Mark: there is a Death Eater amongst them. Harry will need powerful magic and true friends as he explores Voldemort's darkest secrets, and Dumbledore prepares him to face his destiny...",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 4
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": false,
+        "title": "Harry Potter and the Deathly Hallows",
+        "subtitle": "As he climbs into the sidecar of Hagrid's motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is broken, but he cannot keep hiding. The Dark Lord is breathing fear into everything Harry loves and to stop him Harry will have to find and destroy the remaining Horcruxes. The final battle must begin - Harry must stand and face his enemy...",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": false,
+        "quantity": 22
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "Harry Potter and the Cursed Child",
+        "subtitle": "It's been nineteen years since Harry Potter, Ron Weasley, and Hermione Granger saved the wizarding world, and now they're back on a most extraordinary adventure, joined by a brave new generation that's only just arrived at Hogwarts School of Witchcraft and Wizardry. While Harry grapples with a past that refuses to stay where it belongs, his youngest son, Albus, struggles with the weight of a family legacy he never wanted. As past and present collide, both father and son are locked in a race through time as they battle mysterious forces, all while the future hangs in the balance.",
+        "author": "J. K. Rowling",
+        "image": "https://images.booksense.com/images/595/139/9780439139595.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 3
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": false,
+        "title": "The Hobbit",
+        "subtitle": "In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.Written for J.R.R. Tolkien’s own children, The Hobbit met with instant critical acclaim when it was first published in 1937. Now recognized as a timeless classic, this introduction to the hobbit Bilbo Baggins, the wizard Gandalf, Gollum, and the spectacular world of Middle-earth recounts of the adventures of a reluctant hero, a powerful and dangerous ring, and the cruel dragon Smaug the Magnificent. The text in this 372-page paperback edition is based on that first published in Great Britain by Collins Modern Classics (1998), and includes a note on the text by Douglas A. Anderson (2001).",
+        "author": "J.R.R. Tolkien",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 2
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "The Fellowship of the Ring",
+        "subtitle": "In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit.In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.",
+        "author": "J.R.R. Tolkien",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 4
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "The Two Towers",
+        "subtitle": "Frodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They have lost the wizard, Gandalf, in a battle in the Mines of Moria. And Boromir, seduced by the power of the Ring, tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked by Orcs. Now they continue the journey alone down the great River Anduin—alone, that is, save for the mysterious creeping figure that follows wherever they go.",
+        "author": "J.R.R. Tolkien",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+        "isAvailableOnLine": true,
+        "quantity": 10
+      },
+      {
+        "id": "-N9A7mx6JCf8UIfO5rbQ",
+        "isAvailableOnStore": true,
+        "title": "The Return of the King",
+        "subtitle": "Begin your journey into Middle-earth. The inspiration for the upcoming original series on Prime Video, The Lord of the Rings: The Rings of Power. The Return of the King is the third part of J.R.R. Tolkien’s epic adventure The Lord of the Rings. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.The Dark Lord has risen, and as he unleashes hordes of Orcs to conquer all Middle-earth, Frodo and Sam struggle deep into his realm in Mordor.To defeat Sauron, the One Ring must be destroyed in the fires of Mount Doom. But the way is impossibly hard, and Frodo is weakening. The Ring corrupts all who bear it and Frodo’s time is running out.",
+        "author": "J.R.R. Tolkien",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg",
+        "isAvailableOnLine": false,
+        "quantity": 3
+      }
+    ],
+    "key": "-N824dXby_iPHFVZuENQ"
+  }
+}

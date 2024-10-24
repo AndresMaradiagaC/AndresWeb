@@ -1,0 +1,15 @@
+.mainContainer {
+    display: flex;
+    width: calc(100% - 10px);
+    margin-bottom: 5px;
+    background-color: rgba(48, 206, 23, 0.741);
+    gap: 5px;
+    border: 2px solid black;
+
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
