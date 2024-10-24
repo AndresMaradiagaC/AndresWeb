@@ -1,0 +1,193 @@
+/**
+* @name style.css
+* @file Add a small description for this file.
+* @author Esteban Padilla ep@estebanpadilla.com
+* @version 1.0.0
+*/
+
+:root {
+    --primary-color: #263238;
+    --secondary-color: #a42551;
+    --item-color: #8d8d8ddb;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.combos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    
+    
+
+
+}
+
+.combo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 140px;
+    height: 180px;
+    background-color: var(--item-color);
+    border-radius: 20px;
+
+}
+
+.combo-image {
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+.combo-row {
+    margin-bottom: 10px;
+}
+
+.combo-name {
+    font-size: 14px;
+    text-align: center;
+    max-width: 100px;
+}
+
+.combo-price-title {
+    font-weight: bold;
+}
+
+.combo-price {
+    font-weight: bold;
+    color: red;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 140px;
+    height: 180px;
+    background-color: var(--item-color);
+    border-radius: 20px;
+    border: 2px solid #000000; 
+}
+
+.product-image {
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+.product-row {
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 14px;
+    text-align: center;
+    max-width: 100px;
+}
+
+.product-price-title {
+    font-weight: bold;
+}
+
+.product-price {
+    font-weight: bold;
+    color: red;
+}
+
+
+.clear-button {
+    background-color: #a42551;
+    color: rgb(255, 255, 255); 
+    border-radius: 20px; 
+    width: 80px; 
+    height: 50px; 
+    font-size: 18px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; 
+
+
+}
+
+.clear-button:hover {
+    background-color: #c42d2d; 
+}
+
+
+.remove-button{
+    background-color: #ff0000;
+    color: rgb(0, 0, 0); 
+    border-radius: 40px;
+    width: 25px; 
+    height: 25px; 
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; 
+
+}
+.remove-button:hover {
+    background-color: #9a2828; 
+}
