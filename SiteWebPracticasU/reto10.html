@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <title>reto10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="imagenes/favicon.png" rel="icon">
+    <link href="css/index.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  
+
+</head>
+
+
+<body>
+    <header class="text-center">
+        <h1 class="text-black titulo bg-warning">RETOS CREATIVOS</h1>
+    </header>
+
+    <section class="container bg-light">
+        <div class="row">
+            <h1 class="text-dark text-center pt-5">Escala de puntos</h1>
+            <div class="col-sm-6">
+                <div class="pt-5"></div>
+                <h3>Digite el valor de la escala:</h3> <br>
+                <p>
+                    Ingresar cualquiera de estos números de cédula: 111111111 / 222222222 / 333333333/ 444444444 / 555555555
+                </p>
+                <div class="formato1">
+                    <input type="text" id="escala_txt" maxlength="9" size="9" /> <br><br>
+                    <input type="button" class="btn btn-primary" value="Buscar" onclick="evaluar();">
+                    <input type="button" class="btn btn-primary" id="limpiar" value="Limpiar" onclick="limpiar();">
+                    <br><br>
+                    <p id="resultado"></p>
+                </div>
+                <div class="pt-3"></div>
+            </div>
+            <div class="col-sm-6 d-flex align-items-center">
+                <div id="ima1" style="display: none" data-digits="111111111">
+                    <img src="imagenes/persona1.jpg" alt="Andres" class="ta">
+                </div>
+                <div id="ima2" style="display: none" data-digits="222222222">
+                    <img src="imagenes/persona2.jpg" alt="Pedro" class="ta">
+                </div>
+                <div id="ima3" style="display: none" data-digits="333333333">
+                    <img src="imagenes/persona3.jpg" alt="Juan" class="ta">
+                </div>
+                <div id="ima4" style="display: none" data-digits="444444444">
+                    <img src="imagenes/persona4.jpg" alt="Ana" class="ta">
+                </div>
+                <div id="ima5" style="display: none" data-digits="555555555">
+                    <img src="imagenes/persona5.jpg" alt="Carmen" class="ta">
+                </div>
+                <div id="fotoprede">
+                    <img src="imagenes/buscador.jpg" class="prede" alt="Predeterminada">
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <section>
+        <div class="container mt-2 py-2">
+            <a href="index.html" class="btn btn-primary">Regresar</a>
+        </div>
+    </section>
+
+    <footer class="text-center mt-5 py-4 bg-warning">
+        <h1 class="text-black">UNIVERSIDAD CENFOTEC</h1>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/reto10.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- libreria SWEETALERTE-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- interactividad Lottie JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <!-- libreria Lottie JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+</body>
+
+</html>

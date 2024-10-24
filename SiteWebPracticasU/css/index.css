@@ -1,0 +1,153 @@
+
+
+.titulo{
+    font-size: 30px;
+
+}
+
+
+.bg-foto {
+    background-image: url("../imagenes/desenfoque1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fondoindex{
+    background-image: url("../imagenes/indexfondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    background-image: url('../imagenes/banner2.jpg');
+    background-color: #ffffff;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.btncirculos {
+    padding: 15px;
+    border: none;
+    /*distancia entre ellos*/
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.tama{
+    height: 100px;
+    width: 130px;
+}
+.negrita{
+    font-weight: bolder;
+
+}
+
+.ta{
+    height: 200px;
+    width: 200px;
+}
+
+#iconreto8{
+    font-size: 55px;
+    color: rgb(4, 70, 250);
+}
+.figaroreto8{
+    font-size: 20px;
+}
+.figaroh5{
+    font-size: 15px;
+
+}
+
+
+.bg-figa {
+    background-image: url("../imagenes/figaro.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.reto2ta{
+    font-size: 25px;
+    height: 15px;
+
+}
+.peli{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.prede{
+    height: 200px;
+    width: 300px;
+}
+
+
+.bd {
+    font-size: 22px;
+}
+
+.letrap {
+    font-size: 22px;
+}
+
+.formatos1 {
+    color: brown;
+}
+
+
+
+.inicio {
+    border-bottom: 1px solid rgb(143, 50, 50);
+}
+
+.logomerce{
+    padding: 30px 100px;
+}
+
+.logomerce img {
+    width: 70%;
+}
+
+.logom  img {
+    width: 70%;
+}
+
+.mercedees {
+    padding: 80px 100px;
+}
+
+.mercedees h1 {
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+.letrah2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.letrah4{
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.seleccion {
+    width: 100%;
+    padding: 3px 20px;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+
